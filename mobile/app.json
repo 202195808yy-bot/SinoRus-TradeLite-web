@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SinoRus TradeLite",
+    "slug": "sinorus-tradelite",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "sinorustrade",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.vlgu.sinorus.tradelite"
+    },
+    "android": {
+      "package": "ru.vlgu.sinorus.tradelite",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "react-native-edge-to-edge",
+      "expo-font",
+      "expo-splash-screen",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
